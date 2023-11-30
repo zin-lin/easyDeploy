@@ -1,5 +1,5 @@
 chmod +x install-caddy.sh gen-waitress.sh deploy-waitress.sh deploy-caddy.sh
-if [ "$1" -eq 0 ]; then
+if [ "$#" -eq 0 ]; then
     echo "No installations, straight to deploying"
 else
     pip install waitress
