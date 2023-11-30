@@ -1,0 +1,1 @@
+# Damian's way for deploying https and http -VM name/VM IP with Caddy and Flask/wsgi-waitress
